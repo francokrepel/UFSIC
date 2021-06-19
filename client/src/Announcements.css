@@ -1,0 +1,29 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+.announcements-container {
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+  text-align: center;
+  width: auto;
+}
+
+.messageFormat {
+  white-space: pre-line;
+  text-align: left;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  font-size: x-large;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}

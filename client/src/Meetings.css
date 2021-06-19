@@ -1,0 +1,12 @@
+body {
+  background-color: white;
+  color: black;
+}
+.meetings-container {
+  margin-top: 2%;
+  text-align: center;
+}
+
+.calendar-container {
+  margin-top: 2%;
+}
